@@ -1,0 +1,16 @@
+{
+  "name": "treehouse-tech-degree-unit-6",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Potfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Hawes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0"
+  }
+}

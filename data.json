@@ -1,0 +1,105 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This project randomly selects a quote from an array and displays it to the page every 15 seconds. Additionally, the user can manually change the quote.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Arrays",
+                "Math Functions"
+            ],
+            "live_link": "https://matt-j-hawes.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/Matt-J-Hawes/Random-Quote-Generator",
+            "image_urls": [
+                "/images/main-0.png",
+                "/images/landscape-0-0.png",
+                "/images/landscape-0-1.png"
+
+            ]
+        },
+      {
+            "id": 1,
+            "project_name": "Data Filtering and Pagination",
+            "description": "This project arranges a list of students into several pages and allows the user to search for a specific person.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Keyup Event Listeners",
+                "Callback Functions"
+            ],
+            "live_link": "https://matt-j-hawes.github.io/Data-Filtering-and-Pagination/",
+            "github_link": "https://github.com/Matt-J-Hawes/Data-Filtering-and-Pagination",
+            "image_urls": [
+                "/images/main-1.png",
+                "/images/landscape-1-0.png",
+                "/images/landscape-1-1.png"
+
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This project uses JavaScript to add interactivity to enhance user experience.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Regex",
+                "Forms"
+            ],
+            "live_link": "https://matt-j-hawes.github.io/Interactive-Form/",
+            "github_link": "https://github.com/Matt-J-Hawes/Interactive-Form",
+            "image_urls": [
+                "/images/main-2.png",
+                "/images/landscape-2-0.png",
+                "/images/landscape-2-1.png",
+                "/images/landscape-2-2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Object-oriented Programming, Guess the Phrase",
+            "description": "This project randomly generates a phrase for the player to guess before their lives run out!",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Class Based Objects",
+                "Object-Oriented Programming"
+            ],
+            "live_link": "https://matt-j-hawes.github.io/Object-Oriented-Programming-Game/",
+            "github_link": "https://github.com/Matt-J-Hawes/Object-Oriented-Programming-Game",
+            "image_urls": [
+                "/images/main-3.png",
+                "/images/landscape-3-0.png",
+                "/images/landscape-3-1.png",
+                "/images/landscape-3-2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "This projects fetches random employee data and displays it to the page using an API request and asynchronous code.",
+            "technologies": [
+                "JavaScript",
+                "Object-Oriented Programming",
+                "HTML",
+                "CSS",
+                "API",
+                "Asynchronous Code"
+            ],
+            "live_link": "https://matt-j-hawes.github.io/Public-Api-Requests/",
+            "github_link": "https://github.com/Matt-J-Hawes/Public-Api-Requests",
+            "image_urls": [
+                "/images/main-4.png",
+                "/images/landscape-4-0.png",
+                "/images/landscape-4-1.png",
+                "/images/landscape-4-2.png"
+            ]
+        }
+    ]
+}
