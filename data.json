@@ -43,7 +43,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "This project uses JavaScript to add interactivity to enhance user experience.",
+            "description": "This project uses JavaScript to add interactivity to enhance user experience. For example, using JavaScript I created real time error messages to help the user fill out the form correctly before submitting.",
             "technologies": [
                 "JavaScript",
                 "HTML",
