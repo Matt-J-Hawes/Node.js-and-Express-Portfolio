@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,p{
     color: #121233
   }
 
+  h1{
+    font-weight: 100
+  }
+
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;

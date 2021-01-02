@@ -51,7 +51,7 @@ app.use((err, req, res, next) => {
 	}
 
 	console.log(err.status);
-    console.log(err.message);
+    console.log(err.message)
 });
 
 //DEV SERVER TO RUN ON LOCAL HOST (PORT:3000)
