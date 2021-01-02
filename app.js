@@ -37,15 +37,21 @@ data.map(project => app.get(`/projects/${project.id}`, (req, res) => {
 
 //******* ERROR HANDLERS *******//
 app.use((req,res,next) => {
-	const err = new Error("I'm sorry... This page does not exist!")
+	const err = new Error("I'm sorry... this page does not exist!");
 	err.status = 404;
-	next(err)
+	next(err);
 });
 
 app.use((err, req, res, next) => {
-	res.locals.error = err;
-	res.status(err.status)
-	res.render('error');
+	if(err.status === 404){
+        res.status(404).render('page-not-found', { err })
+	} else {
+		err.message = err.message || 'There seems to be a problem on the server, please try again!';
+		return res.status(err.status || 500).render('error', { err })
+	}
+
+	console.log(err.status);
+    console.log(err.message);
 });
 
 //DEV SERVER TO RUN ON LOCAL HOST (PORT:3000)
